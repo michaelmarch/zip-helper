@@ -1,5 +1,5 @@
 import JSZip = require("jszip");
-import { createReadStream, createWriteStream } from "fs";
+import { createReadStream } from "fs";
 
 export class ZipHelper {
   async zipFiles(
